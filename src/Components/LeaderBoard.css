@@ -1,0 +1,77 @@
+.leaderboard {
+  background-color: #f3f4f6;
+  align-items: center;
+}
+
+.leaderboard > div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 2.5rem;
+  color: blue;
+}
+
+.leaderboard > div > h1 {
+  color: blue;
+}
+
+.leaderboard > div > p {
+  font-weight: 700;
+  color: blue;
+}
+
+table {
+  text-align: center;
+  margin: 1rem 12rem;
+  color: #a5aaad;
+  width: 80%;
+}
+
+table > tr > td {
+  font-size: 20px;
+  padding: .5rem 0;
+  border-bottom: 1px solid blue;
+}
+
+table > tr > th {
+  color: #a5aaad;
+  border-bottom: 1px solid blue;
+  font-size: 22px;
+}
+
+table tr> td > img{
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  transition: 0.5s all ease-in-out;
+}
+
+table tr> td > img:hover{
+  transform: scale(1.2);
+}
+
+
+@media screen and (max-width: 1240px) {
+  .leaderboard > div > h1, p{
+    font-size: 16px;
+    padding-top: 10px;
+  }
+
+  table {
+    margin: 1rem 1rem;
+    width: 100%;
+  }
+
+  table > tr > td {
+    font-size: 16px;
+  }
+
+  table > tr > th{
+    font-size: 18px;
+  }
+
+  table tr> td > img{
+    width: 60px;
+    height: 60px;
+  }
+}

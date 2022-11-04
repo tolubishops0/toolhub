@@ -1,0 +1,98 @@
+.homepage {
+  background-color: #f3f4f6;
+}
+
+form {
+  border-radius: 10px;
+  display: inline-block;
+  margin-top: 1.5rem;
+  margin-left: 2.5rem;
+  align-items: center;
+  background-color: beige;
+  border-color: beige;
+  box-shadow: 1px 1px 10px gray;
+}
+
+input {
+  all: unset;
+  padding: 6px 10px;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+}
+
+::placeholder {
+  opacity: 0.5;
+}
+
+.search-icon {
+  padding-top: 5px;
+  width: 100px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  background-color: transparent;
+  opacity: 0.3;
+}
+
+.home__para {
+  padding: 4rem 0;
+  line-height: 40px;
+  text-align: center;
+}
+
+.home__para > h1 {
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: blue;
+}
+
+.home__para > button {
+  font-size: 16px;
+  font-weight: 500;
+  padding: 11px 10px;
+  width: 200px;
+  border-radius: 10px;
+  border: none;
+  background-color: blue;
+  color: white;
+  margin-top: 40px;
+  box-shadow: 1px 1px 10px gray;
+}
+
+.home__btn:hover {
+  color: blue;
+  background-color: beige;
+  transition: 0.8s;
+  font-weight: 700;
+}
+
+@media screen and (max-width: 1240px) {
+  .search-icon{
+    width: 10px;
+    padding-right: 25px;
+    height: 20px;
+  }
+
+  form{
+    margin-left: 2rem
+  }
+
+  .home__para{
+    line-height: 26px;
+    padding: 3rem 2rem;
+    font-size: smaller;
+  }
+
+  .home__para > h1{
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 12px;
+  }
+
+  .home__para > button{
+    font-size: 14px;
+  }
+}
